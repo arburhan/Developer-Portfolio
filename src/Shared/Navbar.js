@@ -21,7 +21,7 @@ const Navbar = () => {
                             {navTabs}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl"> <img width={30} src={bannerImage} alt="" /> </a>
+                    <a className="btn btn-ghost normal-case text-md"> <img width={30} src={bannerImage} alt="" />Md Borhan Uddin</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
