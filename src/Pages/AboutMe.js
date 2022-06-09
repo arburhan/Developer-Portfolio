@@ -4,7 +4,7 @@ import aboutMeImage from '../Assests/Images/ar-burhan.png';
 const AboutMe = () => {
     return (
         <div className='my-5'>
-            <h3 className="text-md underline underline-offset-1 text-center">About Me</h3>
+            <h3 className="text-md underline underline-offset-1 text-center my-8 text-accent">About Me</h3>
             <div class="hero">
                 <div class="hero-content flex-col lg:flex-row gap-6 md:gap-20">
                     <img src={aboutMeImage} class="w-md md:max-w-sm rounded-lg shadow-2xl" alt='ar burhan' />

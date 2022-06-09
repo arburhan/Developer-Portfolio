@@ -31,9 +31,9 @@ const Banner = () => {
                             loop
                         />
                         <p className="text-md py-4 md:pr-8">I am a junior web developer. I love coding and coding is my passion. I like to constantly get acquainted with new technologies and take on challenges and I find joy in it. Recently I created some fullstack websites that you can find in the projects area.</p>
-                        <div className='flex gap-5'>
-                            {/* <button class="btn underline">Hire Me</button> */}
+                        <div className='flex gap-8'>
                             <button onClick={handleDownloadCV} class="btn btn-accent">Download Resume</button>
+                            <button class="underline bg-slate-700 rounded-md text-accent p-3">Hire Me</button>
                         </div>
                     </div>
                 </div>
