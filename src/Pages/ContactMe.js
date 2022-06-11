@@ -2,13 +2,13 @@ import React from 'react';
 
 const ContactMe = () => {
     return (
-        <div>
+        <div className='my-8'>
             <h3 class="text-md underline underline-offset-2 text-center my-4 text-accent">Contact Me</h3>
             <div className=" min-h-screen">
                 <div className="hero-content flex-col lg:flex-row">
                     <div className="w-full max-w-xl p-5 rounded-xl ">
                         <h3 className="text-md text-center text-primary underline underline-offset-2 py-3">Contact Info</h3>
-                        <div className='flex items-center justify-evenly my-3'>
+                        <div className='flex items-center justify-evenly my-8'>
                             <div onClick={() => {
                                 window.open('https://github.com/arburhan');
                             }} className="flex flex-col items-center hover:underline  cursor-pointer bg-slate-600 rounded-2xl py-4 px-5">
