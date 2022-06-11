@@ -7,7 +7,10 @@
         "stackCategory": "Full Stack",
         "liveLink": "https://ar-power-tools.web.app/",
         "githubClient": "https://github.com/arburhan/Manufacturer-Website-Client",
-        "githubServer": "https://github.com/arburhan/Manufacturer-Website-Server"
+        "githubServer": "https://github.com/arburhan/Manufacturer-Website-Server",
+        "infoImage1": "https://i.ibb.co/ZYdgb5B/manage-Orders.jpg",
+        "infoImage2": "https://i.ibb.co/BC1LwKh/payment-Method.jpg",
+        "infoImage3": "https://i.ibb.co/rp0whB6/admin-Dashboard.jpg"
     },
     {
         "_id": 2,
@@ -17,7 +20,10 @@
         "stackCategory": "Full Stack",
         "liveLink": "https://inventory-management-7b51a.web.app/",
         "githubClient": "https://github.com/arburhan/Inventory-Management-Client",
-        "githubServer": "https://github.com/arburhan/Inventory-Management-Server"
+        "githubServer": "https://github.com/arburhan/Inventory-Management-Server",
+        "infoImage1": "https://i.ibb.co/P6HYMRq/grocery-additional-2.jpg",
+        "infoImage2": "https://i.ibb.co/xsDjv5P/grocery-additional-1.jpg",
+        "infoImage3": "https://i.ibb.co/ydjRG4n/grocery-additional-3.jpg"
     },
     {
         "_id": 3,
@@ -26,6 +32,8 @@
         "description": "This is an independent service provider's website. Here is the web site of a service provider such as the person who does wild life photography. Here a person can hire him but he has to login to that website. After logging in, you can book the photographer on the website. Below are the names, pictures and ratings of the photographer's instrument.",
         "stackCategory": "Frontend",
         "liveLink": "https://ar-wild-grapher.web.app/",
-        "githubClient": "https://github.com/arburhan/Independent-Service-Provider"
+        "githubClient": "https://github.com/arburhan/Independent-Service-Provider",
+        "infoImage1": "https://i.ibb.co/gr4BL8V/wild-Graph.jpg",
+        "infoImage2": "https://i.ibb.co/tZBZTBy/wild-Graph-2.jpg"
     }
 ]
