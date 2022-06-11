@@ -3,7 +3,7 @@ import aboutMeImage from '../Assests/Images/ar-burhan.png';
 
 const AboutMe = () => {
     return (
-        <div className='my-5'>
+        <div className='my-12'>
             <h3 className="text-md underline underline-offset-1 text-center my-8 text-accent">About Me</h3>
             <div class="hero">
                 <div class="hero-content flex-col lg:flex-row gap-6 md:gap-20">
