@@ -10,6 +10,9 @@ const Project = ({ project }) => {
     const handleServerLink = () => {
         window.open(project.githubServer)
     }
+    const handleDetails = (id) => {
+        console.log(id)
+    }
     return (
         <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
@@ -40,7 +43,9 @@ const Project = ({ project }) => {
                         <p className='underline-offset-2'>Server Code</p>
                     </div>}
                 </div>
-                <button className='btn btn-accent' >Details</button>
+                <button onClick={() => {
+                    handleDetails(project._id)
+                }} className='btn btn-accent' >Details</button>
             </div>
         </div >
     );
