@@ -3,6 +3,7 @@ import Footer from '../Shared/Footer';
 import AboutMe from './AboutMe';
 import Banner from './Banner';
 import ContactMe from './ContactMe';
+import MySkills from './MySkills';
 import Projects from './Projects';
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <AboutMe></AboutMe>
+            <MySkills></MySkills>
             <Projects></Projects>
             <ContactMe></ContactMe>
             <Footer></Footer>
