@@ -1,6 +1,7 @@
 import React from 'react';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
 
 const ContactMe = () => {
     const form = useRef();
@@ -10,6 +11,7 @@ const ContactMe = () => {
         emailjs.sendForm(`service_ili7eos`, `template_umw2cdp`, form.current, `x22iLk0sW4jvg_UGp`)
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
+                toast.success('thanks for your message');
                 e.target.reset();
             }, function (error) {
                 console.log('FAILED...', error);
@@ -79,19 +81,19 @@ const ContactMe = () => {
                                     <label className="label">
                                         <span className="label-text">Name</span>
                                     </label>
-                                    <input type="name" name='user_name' placeholder="Name" className="input input-bordered" />
+                                    <input required type="name" name='user_name' placeholder="Name" className="input input-bordered" />
                                 </div>
                                 <div className="form-control">
                                     <label className="label">
                                         <span className="label-text">Email</span>
                                     </label>
-                                    <input type="email" name='user_email' placeholder="Email" className="input input-bordered" />
+                                    <input required type="email" name='user_email' placeholder="Email" className="input input-bordered" />
                                 </div>
                                 <div className="form-control">
                                     <label className="label">
                                         <span className="label-text">Message</span>
                                     </label>
-                                    <textarea type="text" name='message' rows={6} className="textarea textarea-bordered" placeholder="Message"></textarea>
+                                    <textarea required type="text" name='message' rows={6} className="textarea textarea-bordered" placeholder="Message"></textarea>
                                 </div>
                                 <div className="form-control mt-6">
                                     <input type='submit' value='Submit' className="btn btn-accent"></input>
