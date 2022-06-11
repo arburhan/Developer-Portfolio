@@ -1,13 +1,15 @@
 import React from 'react';
 import bannerImage from '../Assests/Images/webiconImage.png';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const navTabs = <>
-        <li> <a href="">Home</a> </li>
-        <li> <a href="">About Me</a> </li>
-        <li> <a href="">Projects</a> </li>
-        <li> <a href="">Pricing</a> </li>
-        <li> <a href="">Contact Me</a> </li>
+        <li> <Link to='/'>Home</Link> </li>
+        <li> <Link to=''>About Me</Link> </li>
+        <li> <Link to=''>Projects</Link> </li>
+        <li> <Link to=''>Pricing</Link> </li>
+        <li> <Link to='/blog'>Blog</Link> </li>
+        <li> <Link to=''>Contact Me</Link> </li>
     </>
     return (
         <nav>
