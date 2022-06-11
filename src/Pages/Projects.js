@@ -6,7 +6,7 @@ import Project from './Project';
 const Projects = () => {
     const [myProjects, setMyProjects] = useState([]);
     useEffect(() => {
-        fetch('ProductsInfo.json')
+        fetch('https://evening-ocean-45945.herokuapp.com/projects')
             .then(res => res.json())
             .then(data => setMyProjects(data));
     }, [])
