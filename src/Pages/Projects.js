@@ -1,15 +1,14 @@
 import React from 'react';
-import { useEffect } from 'react';
-import { useState } from 'react';
 import Project from './Project';
+import { useQuery } from 'react-query';
 
 const Projects = () => {
-    const [myProjects, setMyProjects] = useState([]);
-    useEffect(() => {
-        fetch('https://evening-ocean-45945.herokuapp.com/projects')
-            .then(res => res.json())
-            .then(data => setMyProjects(data));
-    }, [])
+    const { data: myProjects, isLoading } = useQuery('myProjects', () => fetch(`https://evening-ocean-45945.herokuapp.com/projects`)
+        .then(res => res.json()));
+    if (isLoading) {
+        return <progress className="progress w-56"></progress>
+    }
+
     return (
         <div id='projects' className='my-10'>
             <h3 className="text-md underline underline-offset-2 text-center my-4 text-accent">My Projects</h3>
