@@ -30,8 +30,8 @@ const Navbar = () => {
                         {navTabs}
                     </ul>
                 </div>
-                {/*   <div className="navbar-end">
-                    <a className="btn">Get started</a>
+                {/* <div className="navbar-start">
+                    <Link to='/' className="btn">Get started</Link>
                 </div> */}
             </div>
         </nav>
