@@ -11,7 +11,7 @@ const Projects = () => {
             .then(data => setMyProjects(data));
     }, [])
     return (
-        <div className='my-10'>
+        <div id='projects' className='my-10'>
             <h3 className="text-md underline underline-offset-2 text-center my-4 text-accent">My Projects</h3>
             <p className="text-md text-xl text-center pb-10">I've done a number of projects, some of which are highlighted</p>
             <div className='flex flex-col md:flex-row justify-center gap-8'>

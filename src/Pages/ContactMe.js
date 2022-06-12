@@ -18,7 +18,7 @@ const ContactMe = () => {
             });
     }
     return (
-        <div className='mt-20 mb-10'>
+        <div id='contactMe' className='mt-20 mb-10'>
             <h3 class="text-md underline underline-offset-2 text-center my-4 text-accent">Contact Me</h3>
             <div className=" min-h-screen">
                 <div className="hero-content flex-col lg:flex-row">

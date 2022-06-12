@@ -1,18 +1,18 @@
 import React from 'react';
 import bannerImage from '../Assests/Images/webiconImage.png';
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const navTabs = <>
-        <li> <Link to='/'>Home</Link> </li>
+        <li> <NavLink to='/home'>Home</NavLink> </li>
         <li> <a href='#aboutMe'>About Me</a> </li>
-        <li> <Link to=''>Projects</Link> </li>
-        <li> <Link to=''>Pricing</Link> </li>
-        <li> <Link to='/blog'>Blog</Link> </li>
-        <li> <Link to=''>Contact Me</Link> </li>
+        <li> <a href='#projects'>Projects</a> </li>
+        <li> <NavLink to='/blog'>Blog</NavLink> </li>
+        <li> <a href='#contactMe'>Contact Me</a> </li>
     </>
     return (
-        <nav>
+        <nav className='sticky top-0 bg-base-500 z-50'>
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -23,7 +23,7 @@ const Navbar = () => {
                             {navTabs}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-md"> <img width={30} src={bannerImage} alt="" />Borhan's Portfolio</a>
+                    <Link to='/' className="btn btn-ghost normal-case text-md"> <img width={30} src={bannerImage} alt="" />Borhan's Portfolio</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0">
