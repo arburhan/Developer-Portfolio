@@ -47,6 +47,21 @@ const SingleProject = () => {
                         <p className='underline-offset-2'>Server Code</p>
                     </div>}
                 </div>
+                <div className='py-5'>
+                    <h2 className="text-xl text-center underline underline-offset-2 py-5">Screen Shoots & Short Details</h2>
+                    <div>
+                        <ul className='list-disc p-5'>
+                            <li>{myProject.detailsPoint1}</li>
+                            <li>{myProject.detailsPoint2}</li>
+                            <li>{myProject.detailsPoint3}</li>
+                            <li>{myProject.detailsPoint4}</li>
+                            <li>{myProject.detailsPoint5}</li>
+                        </ul>
+                    </div>
+                    <figure className='pt-5'><img src={myProject.infoImage1} alt="" /></figure>
+                    <figure className='py-8'><img src={myProject.infoImage2} alt="" /></figure>
+                    <figure className='py-1'><img src={myProject.infoImage3} alt="" /></figure>
+                </div>
             </div>
         </div>
     );

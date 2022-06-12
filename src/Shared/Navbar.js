@@ -5,10 +5,10 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const navTabs = <>
-        <li> <NavLink to='/home'>Home</NavLink> </li>
+        <li> <Link to='/home'>Home</Link> </li>
         <li> <a href='#aboutMe'>About Me</a> </li>
         <li> <a href='#projects'>Projects</a> </li>
-        <li> <NavLink to='/blog'>Blog</NavLink> </li>
+        <li> <Link to='/blog'>Blog</Link> </li>
         <li> <a href='#contactMe'>Contact Me</a> </li>
     </>
     return (
