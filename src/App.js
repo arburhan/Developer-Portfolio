@@ -10,7 +10,7 @@ import SingleProject from './Pages/SingleProject/SingleProject';
 
 function App() {
   return (
-    <div>
+    <div style={{ overflow: 'hidden' }} >
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>

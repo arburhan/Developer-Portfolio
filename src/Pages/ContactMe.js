@@ -21,8 +21,9 @@ const ContactMe = () => {
         <div id='contactMe' className='mt-20 mb-10'>
             <h3 class="text-md underline underline-offset-2 text-center my-4 text-accent">Contact Me</h3>
             <div className=" min-h-screen">
-                <div className="hero-content flex-col lg:flex-row">
-                    <div className="w-full max-w-xl p-5 rounded-xl ">
+                <div data-aos="fade-up"
+                    data-aos-duration="3000" className="hero-content flex-col lg:flex-row">
+                    <div data-aos="fade-right" className="w-full max-w-xl p-5 rounded-xl ">
                         <h3 className="text-md text-center text-primary underline underline-offset-2 py-3">Contact Info</h3>
                         <div className='flex items-center justify-evenly my-8'>
                             <div onClick={() => {
@@ -73,7 +74,7 @@ const ContactMe = () => {
                             </figure>
                         </div>
                     </div>
-                    <div className="card flex-shrink-0 w-full max-w-lg shadow-xl">
+                    <div data-aos="fade-left" className="card flex-shrink-0 w-full max-w-lg shadow-xl">
                         <div className="card-body">
                             <h3 className="text-md text-center text-primary underline underline-offset-2">Direct Mail</h3>
                             <form ref={form} onSubmit={handleSubmit}>
