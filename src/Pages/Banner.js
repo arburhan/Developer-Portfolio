@@ -12,9 +12,8 @@ const Banner = () => {
             style={{
                 /*  background: `url(${bannerBackgroundImage})`,
                  backgroundSize: 'cover', */
-            }}
-        >
-            <div class="hero h-[85vh]">
+            }}>
+            <div data-aos="zoom-in" class="hero h-[85vh]">
                 <div class="hero-content flex-col lg:flex-row-reverse gap-5">
                     <img src={bannerPhoto} class="w-sm md:max-w-md rounded-lg shadow-2xl" alt='' />
                     <div className='w-xs md:max-w-4xl' >
@@ -37,9 +36,6 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div>
-
             </div>
         </div>
     );
