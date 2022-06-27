@@ -10,11 +10,11 @@ const ContactMe = () => {
         e.preventDefault();
         emailjs.sendForm(`service_ili7eos`, `template_umw2cdp`, form.current, `x22iLk0sW4jvg_UGp`)
             .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
+                // console.log('SUCCESS!', response.status, response.text);
                 toast.success('thanks for your message');
                 e.target.reset();
             }, function (error) {
-                console.log('FAILED...', error);
+                // console.log('FAILED...', error);
             });
     }
     return (
@@ -97,7 +97,7 @@ const ContactMe = () => {
                                     <textarea required type="text" name='message' rows={6} className="textarea textarea-bordered" placeholder="Message"></textarea>
                                 </div>
                                 <div className="form-control mt-6">
-                                    <input type='submit' value='Submit' className="btn btn-accent"></input>
+                                    <input type='submit' value='Send' className="btn btn-accent"></input>
                                 </div>
                             </form>
                         </div>

@@ -7,10 +7,13 @@ import 'react-toastify/dist/ReactToastify.css';
 import { Routes, Route } from "react-router-dom";
 import Blogs from './Pages/Blogs';
 import SingleProject from './Pages/SingleProject/SingleProject';
+import TSParticles from './TSParticles';
 
 function App() {
   return (
     <div style={{ overflow: 'hidden' }} >
+      <TSParticles />
+
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
