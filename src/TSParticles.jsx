@@ -31,7 +31,7 @@ const TSParticles = () => {
               "position": "50% 50%",
               "repeat": "no-repeat",
               "size": "cover",
-              "opacity": 1
+              "opacity": 0.5
             },
             "backgroundMask": {
               "composite": "destination-out",
@@ -55,7 +55,7 @@ const TSParticles = () => {
               "events": {
                 "onClick": {
                   "enable": true,
-                  "mode": "push"
+                  // "mode": "push"
                 },
                 "onDiv": {
                   "selectors": "#repulse-div",
@@ -65,7 +65,7 @@ const TSParticles = () => {
                 },
                 "onHover": {
                   "enable": true,
-                  "mode": "bubble",
+                  // "mode": "bubble",
                   "parallax": {
                     "enable": false,
                     "force": 30,
@@ -139,7 +139,7 @@ const TSParticles = () => {
                   "quantity": 4
                 },
                 "remove": {
-                  "quantity": 2
+                  "quantity": 4
                 },
                 "repulse": {
                   "distance": 200,
