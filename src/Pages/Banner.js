@@ -20,9 +20,12 @@ const Banner = () => {
                             strings={[
                                 "Junior Web Developer",
                                 "Full-Stack Web Developer",
+                                "Frontend Developer",
+                                "Web Developer",
+                                "MERN Stack Developer",
                             ]}
-                            typeSpeed={100}
-                            backSpeed={70}
+                            typeSpeed={80}
+                            backSpeed={60}
                             loop
                         />
                         <p className="text-md py-4 md:pr-8">I am a junior web developer. I love coding and coding is my passion. I like to constantly get acquainted with new technologies and take on challenges and I find joy in it. Recently I created some fullstack websites that you can find in the projects area.</p>

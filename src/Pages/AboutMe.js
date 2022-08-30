@@ -17,7 +17,7 @@ const AboutMe = () => {
                         <p class="py-6 md:pr-8">My name is Md Borhan Uddin Ashik. I am a junior web developer.My sole purpose is to create new websites all the time. Always try to work with advanced technology and with
                             total concentration to be user-friendly. But I am always ready to take on a challenge so that I can learn
                             something new.This year I have completed Diploma in Computer Technology from Rajshahi Polytechnic Institute.</p>
-                        <button class="btn btn-accent">Contact Me</button>
+                        <button onclick="location.href='https://wa.me/+8801737509339'" class="btn btn-accent">Contact Me</button>
                     </div>
                 </div>
             </div>

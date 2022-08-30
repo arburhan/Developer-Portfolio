@@ -136,10 +136,10 @@ const TSParticles = () => {
                 "push": {
                   "default": true,
                   "groups": [],
-                  "quantity": 4
+                  "quantity": 1
                 },
                 "remove": {
-                  "quantity": 4
+                  "quantity": 2
                 },
                 "repulse": {
                   "distance": 200,
@@ -501,16 +501,16 @@ const TSParticles = () => {
                     }
                   ], */
                   "images": [
-                    {
-                        "src": 'https://i.ibb.co/7yss3cS/html-5.png',
-                        "width": 32,
-                        "height": 32
-                      },
-                      {
-                        "src": 'https://i.ibb.co/ZfJL6vZ/css.png',
-                        "width": 32,
-                        "height": 32
-                      },
+                    // {
+                    //     "src": 'https://i.ibb.co/7yss3cS/html-5.png',
+                    //     "width": 32,
+                    //     "height": 32
+                    //   },
+                    //   {
+                    //     "src": 'https://i.ibb.co/ZfJL6vZ/css.png',
+                    //     "width": 32,
+                    //     "height": 32
+                    //   },
                       {
                         "src": 'https://i.ibb.co/frQGJ1F/js.png',
                         "width": 32,
