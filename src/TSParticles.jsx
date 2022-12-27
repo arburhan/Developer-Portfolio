@@ -136,10 +136,10 @@ const TSParticles = () => {
                 "push": {
                   "default": true,
                   "groups": [],
-                  "quantity": 1
+                  "quantity": 0
                 },
                 "remove": {
-                  "quantity": 2
+                  "quantity": 50
                 },
                 "repulse": {
                   "distance": 200,
@@ -264,8 +264,8 @@ const TSParticles = () => {
                       "minimumValue": 0
                     },
                     "value": {
-                      "min": 4,
-                      "max": 9
+                      "min": 1,
+                      "max": 1
                     }
                   },
                   "sizeOffset": true
@@ -370,7 +370,7 @@ const TSParticles = () => {
                   "factor": 1000
                 },
                 "limit": 0,
-                "value": 80
+                "value": 10
               },
               "opacity": {
                 "random": {
