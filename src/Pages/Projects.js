@@ -3,7 +3,7 @@ import Project from './Project';
 import { useQuery } from 'react-query';
 
 const Projects = () => {
-    const { data: myProjects, isLoading } = useQuery('myProjects', () => fetch(`https://evening-ocean-45945.herokuapp.com/projects`)
+    const { data: myProjects, isLoading } = useQuery('myProjects', () => fetch(`https://arburhan-portfolio-server.onrender.com/projects`)
         .then(res => res.json()));
     if (isLoading) {
         return <progress className="progress w-56"></progress>

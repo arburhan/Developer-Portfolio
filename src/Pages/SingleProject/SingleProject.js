@@ -5,7 +5,7 @@ import { useQuery } from 'react-query';
 
 const SingleProject = () => {
     const { id } = useParams();
-    const { data: myProject, isLoading } = useQuery('myProject', () => fetch(`https://evening-ocean-45945.herokuapp.com/project/${id}`)
+    const { data: myProject, isLoading } = useQuery('myProject', () => fetch(`https://arburhan-portfolio-server.onrender.com/project/${id}`)
         .then(res => res.json()));
     if (isLoading) {
         return <progress className="progress w-56"></progress>
