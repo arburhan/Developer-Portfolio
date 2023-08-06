@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './Shared/Navbar';
 import Home from './Pages/Home';
@@ -8,6 +7,7 @@ import { Routes, Route } from "react-router-dom";
 import Blogs from './Pages/Blogs';
 import SingleProject from './Pages/SingleProject/SingleProject';
 import TSParticles from './TSParticles';
+import ScrollToTopButton from './Shared/ScrollToTopButton';
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
         <Route path='/blog' element={<Blogs></Blogs>}></Route>
         <Route path='project/:id' element={<SingleProject></SingleProject>}></Route>
       </Routes>
+      <ScrollToTopButton></ScrollToTopButton>
       <ToastContainer></ToastContainer>
     </div>
   );

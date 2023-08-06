@@ -1,6 +1,5 @@
 import React from 'react';
 import Footer from '../Shared/Footer';
-import TSParticles from '../TSParticles';
 import AboutMe from './AboutMe';
 import Banner from './Banner';
 import ContactMe from './ContactMe';

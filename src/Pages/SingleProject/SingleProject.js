@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, useParams } from 'react-router-dom';
 
-import { useQuery } from 'react-query';
 import ProductInfo from '../../Assests/ProductInfo';
 
 

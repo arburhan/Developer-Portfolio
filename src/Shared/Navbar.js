@@ -1,18 +1,20 @@
 import React from 'react';
 import bannerImage from '../Assests/Images/webiconImage.png';
-import { Link } from "react-router-dom";
-import { NavLink } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-    const navTabs = <>
-        <li> <Link to='/home'>Home</Link> </li>
-        <li> <a href='#aboutMe'>About Me</a> </li>
-        <li> <a href='#projects'>Projects</a> </li>
-        <li> <Link to='/blog'>Blog</Link> </li>
-        <li> <a href='#contactMe'>Contact Me</a> </li>
-    </>
+    const navTabs = (
+        <>
+            <li> <Link to='/home'>Home</Link> </li>
+            <li> <a href='/#aboutMe'>About Me</a> </li>
+            <li> <a href='/#projects'>Projects</a> </li>
+            <li> <Link to='/blog'>Blog</Link> </li>
+            <li> <a href='/#contactMe'>Contact Me</a> </li>
+        </>
+    );
+
     return (
-        <nav className='sticky top-0 bg-base-500 z-50'>
+        <nav className='sticky top-0 z-50 sm:px-16 px-6 flex justify-center items-center'>
             <div className="navbar bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -30,9 +32,6 @@ const Navbar = () => {
                         {navTabs}
                     </ul>
                 </div>
-                {/* <div className="navbar-start">
-                    <Link to='/' className="btn">Get started</Link>
-                </div> */}
             </div>
         </nav>
     );
