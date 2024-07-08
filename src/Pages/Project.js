@@ -45,7 +45,7 @@ const Project = ({ project }) => {
 
             </figure>
             <div className="card-body py-2 md:p-3">
-                <h2 className="card-title md:py-2 text-2xl md:text-3xl">
+                <h2 className="card-title md:py-2 text-2xl md:text-2xl">
                     {project.name}
                 </h2>
                 <p title={project.description} >{project.description.length > 120 ? project.description.slice(0, 120) + '...' : project.description}</p>

@@ -8,10 +8,14 @@ const MySkills = () => {
                 <div data-aos="fade-left">
                     <div>
                         <label className='block font-bold'>HTML</label>
-                        <progress className="progress progress-success h-3 w-56" value="90" max="100"></progress>
+                        <progress className="progress progress-success h-3 w-56" value="85" max="100"></progress>
                     </div>
                     <div>
                         <label className='block font-bold'>CSS</label>
+                        <progress className="progress progress-success h-3 w-56" value="80" max="100"></progress>
+                    </div>
+                    <div>
+                        <label className='block font-bold'>Tailwind</label>
                         <progress className="progress progress-success h-3 w-56" value="85" max="100"></progress>
                     </div>
                     <div>
@@ -20,25 +24,46 @@ const MySkills = () => {
                     </div>
                     <div>
                         <label className='block font-bold'>React</label>
-                        <progress className="progress progress-success h-3 w-56" value="65" max="100"></progress>
+                        <progress className="progress progress-success h-3 w-56" value="75" max="100"></progress>
                     </div>
-                </div>
-                <div data-aos="fade-right">
+                    <div>
+                        <label className='block font-bold'>Nextjs</label>
+                        <progress className="progress progress-success h-3 w-56" value="60" max="100"></progress>
+                    </div>
                     <div>
                         <label className='block font-bold'>Firebase</label>
                         <progress className="progress progress-success h-3 w-56" value="35" max="100"></progress>
                     </div>
+                </div>
+                {/* right side */}
+                <div data-aos="fade-right">
                     <div>
                         <span className='block font-bold'>Node.js</span>
-                        <progress className="progress progress-success h-3 w-56" value="30" max="100"></progress>
+                        <progress className="progress progress-success h-3 w-56" value="80" max="100"></progress>
                     </div>
                     <div>
                         <label className='block font-bold'>Express.js</label>
-                        <progress className="progress progress-success h-3 w-56" value="25" max="100"></progress>
+                        <progress className="progress progress-success h-3 w-56" value="75" max="100"></progress>
                     </div>
                     <div>
                         <label className='block font-bold'>Mongodb</label>
-                        <progress className="progress progress-success h-3 w-56" value="45" max="100"></progress>
+                        <progress className="progress progress-success h-3 w-56" value="75" max="100"></progress>
+                    </div>
+                    <div>
+                        <label className='block font-bold'>Mongoose</label>
+                        <progress className="progress progress-success h-3 w-56" value="85" max="100"></progress>
+                    </div>
+                    <div>
+                        <label className='block font-bold'>C</label>
+                        <progress className="progress progress-success h-3 w-56" value="90" max="100"></progress>
+                    </div>
+                    <div>
+                        <label className='block font-bold'>CPP</label>
+                        <progress className="progress progress-success h-3 w-56" value="90" max="100"></progress>
+                    </div>
+                    <div>
+                        <label className='block font-bold'>java</label>
+                        <progress className="progress progress-success h-3 w-56" value="60" max="100"></progress>
                     </div>
                 </div>
             </div>

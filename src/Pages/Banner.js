@@ -21,6 +21,7 @@ const Banner = () => {
                                 "Junior Web Developer",
                                 "Full-Stack Web Developer",
                                 "Frontend Developer",
+                                "Competitive Programmer",
                                 "Web Developer",
                                 "MERN Stack Developer",
                             ]}
